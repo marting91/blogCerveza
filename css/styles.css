@@ -65,17 +65,21 @@ img {
 
 /* Header */
 .webp .header {
-    background-image: url("../img/banner.webp");
+    /* background-image: url("../img/banner.webp"); */
+    background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../img/banner.webp") no-repeat center/cover;
+    
 }
 .no-webp .header {
-    background-image: url("../img/banner.jpg");
+    background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../img/banner.jpg") no-repeat center/cover;
+    /* background-image: url("../img/banner.jpg"); */
 }
 .header {
     height: 60rem;
-    background-size: cover;
+    /* background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center center; */
 }
+
 .header__texto {
     text-align: center;
     color: var(--blanco);
