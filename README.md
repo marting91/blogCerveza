@@ -1,24 +1,24 @@
-# Página de blog de Cerveza Arteseanal
+# Arteseanal Beer Blog
 
 ![Banner](/img/banner.jpg)
 
-## Información General 📝
-Para este proyecto se utilizó puro HTML y CSS, sin librerías ni frameworks.
+## General Information 📝
+For this project I used pure HTML and CSS, without libraries or frameworks.
 
-## Caracterísiticas del proyecto 🔍
-En **HTML** se incorpora uso de:
-* Etiquetas `<picture>` y `<source>`
-* Lazy loading para las imgágenes (`loading="lazy"`)
-* `prefetch` y `preload` para mejorar la peformance en la carga de distintos recursos
+## Project characteristics 🔍
+In **HTML** it incorporates the use of:
+* `<picture>` and `<source>` tags.
+* Lazy loading for images (`loading="lazy"`)
+* `prefetch` and `preload` to improve the peformance in loading different resources
 
-En **CSS** se incluye:
-* Utilización de **Custom Properties**
-* Uso de **Media Queries**
+In **CSS** includes:
+* Use of **Custom Properties**
+* Use of **Media Queries**
 * **Flexbox**
 * **Grid**
 
-## Resumen herramientas utilizadas 🛠
+## Summary of tools used 🛠
 * HTML5
 * CSS3
 * [Normalize](https://necolas.github.io/normalize.css/)
-* [Modernizr](https://modernizr.com/) (para verificar sorporte de imágenes *webp*)
+* [Modernizr](https://modernizr.com/) (to verify *webp* image support)
